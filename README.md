@@ -1,6 +1,7 @@
 # cuda-in-practice
 
-Build and run applications on the GPU of your workstation.
+Build and run applications on the GPU of your workstation.  
+The configuration of here described toolset is tested in 2025-05.  
 
 ## Prerequisites
 
@@ -11,6 +12,9 @@ Build and run applications on the GPU of your workstation.
 * NSights installation [https://developer.nvidia.com/nsight-systems/get-started](https://developer.nvidia.com/nsight-systems/get-started)
 * C++ Compiler Installation
 Example: use MSVC for Visual Studio
+
+The applied code is used from the following NVIDIA training:  
+https://colab.research.google.com/github/NVDLI/notebooks/blob/master/even-easier-cuda/An_Even_Easier_Introduction_to_CUDA.ipynb  
 
 ## Application
 

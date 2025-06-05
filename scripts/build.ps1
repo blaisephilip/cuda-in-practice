@@ -2,8 +2,6 @@
 $vsPath = "C:\Program Files\Microsoft Visual Studio\2022\Community"
 $vcvarspath = "$vsPath\VC\Auxiliary\Build\vcvars64.bat"
 
-# $env:Path += ";D:\InstSW\Nvidia_Nsight\target-windows-x64\nsys.exe"
-
 # Create a temporary batch file to capture environment variables
 $tempFile = [System.IO.Path]::GetTempFileName() + ".bat"
 "call `"$vcvarspath`"`nset" | Out-File -FilePath $tempFile -Encoding ASCII
