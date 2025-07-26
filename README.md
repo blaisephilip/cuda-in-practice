@@ -16,6 +16,11 @@ Example: use MSVC for Visual Studio
 The applied code is used from the following NVIDIA training:  
 https://colab.research.google.com/github/NVDLI/notebooks/blob/master/even-easier-cuda/An_Even_Easier_Introduction_to_CUDA.ipynb  
 
+
+Tested versions:  
+cuda_12.9.0_576.02_windows  
+NsightSystems-2025.3.1.90-3582212  
+
 ## Application
 
 1. Switch to the scripts directory in your terminal.
